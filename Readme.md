@@ -14,7 +14,6 @@
 - [ ] Triangle  
     - [ ] *getTriangle(a, b, c)*    
     - [ ] *makeTriangle(params = {/\*\* 2/3 sides (a,b; a,c; b,c)\*\*/})*   
-    - [ ] *findTriangle()*  
     - [ ] *checkPifagorsTheory(a, b, b)*    
     - [ ] *getTriangleType(a, b ,c)*    
 - [ ] Circle    
