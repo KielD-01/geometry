@@ -31,11 +31,8 @@ const f = {
             });
         },
         makeFigureFunction(figure, functions) {
-            let f = [];
-
-            console.log(`Reading path : ${scaffold.getScaffoldPath('function')}`);
-
-            let content = FileSystem.readFileSync(scaffold.getScaffoldPath('function'), 'utf8');
+            let f = [],
+                content = FileSystem.readFileSync(scaffold.getScaffoldPath('function'), 'utf8');
 
             _.map(functions, (func) => {
                 f.push(content.replaceAll('{function}', func).replace('{figure}', figure));
@@ -48,7 +45,7 @@ const f = {
                 .replace('{figure}', figure)
                 .replace('{functions}', functions.join(",\r\n\t"));
         },
-        async makeFigure(figure, functions = []) {
+        makeFigure(figure, functions = []) {
             let exports = f.scaffold.makeFunctionsExports(figure, functions);
             functions = f.scaffold.makeFigureFunction(figure, functions);
 

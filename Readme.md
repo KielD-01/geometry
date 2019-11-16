@@ -17,4 +17,12 @@
     - [ ] *checkPifagorsTheory(a, b, c)*    
     - [ ] *getTriangleType(a, b ,c)*    
 - [ ] Circle    
-    
+
+## Scaffold
+
+If You need to scaffold some new figure, You should run:
+```bash
+npm run g <figure> <functions*>
+
+* - optional argument (ex. getA,getB,getC)
+```
