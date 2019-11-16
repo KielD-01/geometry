@@ -20,6 +20,9 @@ Colors.setTheme({
 console.log(Colors.warn(`Tests Directory : ${testsDir}`));
 
 FileSystem.readdir(testsDir, (err, files) => {
+
+    console.log(`Modules to Test :`, Colors.info(files.length), "\r\n", files, "\r\n\r\n");
+
     files.map(file => {
         console.log(Colors.info('Test File : %s'), file);
 

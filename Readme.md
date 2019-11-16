@@ -3,10 +3,10 @@
 ## Available figures    
 - [x] Lines
     - [x] *getLineCoordinates(axis, startCoordinate, length)*   
-- [ ] Square    
-    - [ ] *getSquare(a)*
-    - [ ] *getSquareArea(a)*
-    - [ ] *getSquarePerimeter(a)*   
+- [x] Square    
+    - [x] *getSquare(a)*
+    - [x] *getSquareArea(a)*
+    - [x] *getSquarePerimeter(a)*   
 - [ ] Rectangle 
     - [ ] *getRectangle(a, b)*
     - [ ] *getRectangleArea(a, b)*
@@ -14,7 +14,7 @@
 - [ ] Triangle  
     - [ ] *getTriangle(a, b, c)*    
     - [ ] *makeTriangle(params = {/\*\* 2/3 sides (a,b; a,c; b,c)\*\*/})*   
-    - [ ] *checkPifagorsTheory(a, b, b)*    
+    - [ ] *checkPifagorsTheory(a, b, c)*    
     - [ ] *getTriangleType(a, b ,c)*    
 - [ ] Circle    
     

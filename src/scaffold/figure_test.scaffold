@@ -1,0 +1,14 @@
+const {replace} = require('../figures/{replace}');
+const helpers = require('../helpers');
+
+const tests = {
+    {replace}: {
+        dummyFunction: [
+            {c: ['{replace}'], r: 'Hello {replace}!'}
+        ]
+    }
+};
+
+module.exports.t = function () {
+    return helpers.runTests(tests, {replace}.{replace});
+};
