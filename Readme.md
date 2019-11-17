@@ -26,3 +26,7 @@ npm run g <figure> <functions*>
 
 * - optional argument (ex. getA,getB,getC)
 ```
+
+## Contribution 
+If You do have any functionality You would like to add or/and improve, then please - do PR after fork.  
+All contributors will be listed.
