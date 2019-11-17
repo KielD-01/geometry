@@ -18,6 +18,7 @@
 - [ ] Icosahedron
 - [ ] Kite
 - [ ] Lines
+    - [x] *getLineCoordinates(axis, startCoordinate, length)*   
 - [ ] Nonagon
 - [ ] Octagon
 - [ ] Octahedron
@@ -26,14 +27,24 @@
 - [ ] Pyramid
 - [ ] Quadrilateral
 - [ ] Rectangle
+    - [ ] *getRectangle(a, b)*
+    - [ ] *getRectangleArea(a, b)*
+    - [ ] *getRectanglePerimeter(a, b)*
 - [ ] Rhombus
 - [ ] Sphere
 - [ ] Square
+    - [x] *getSquare(a)*
+    - [x] *getSquareArea(a)*
+    - [x] *getSquarePerimeter(a)*   
 - [ ] Square Based Pyramid
 - [ ] Tetrahedron
 - [ ] Trapezium
 - [ ] Trapezoid
-- [ ] Triangle
+- [ ] Triangle  
+    - [ ] *getTriangle(a, b, c)*    
+    - [ ] *makeTriangle(params = {/\*\* 2/3 sides (a,b; a,c; b,c)\*\*/})*   
+    - [ ] *checkPifagorsTheory(a, b, c)*    
+    - [ ] *getTriangleType(a, b ,c)*    
 - [ ] Triangular Based Pyramid
 - [ ] Triangular Prism
    
