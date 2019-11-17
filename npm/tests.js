@@ -1,7 +1,7 @@
 const _ = require('lodash'),
     FileSystem = require('fs'),
     Colors = require('colors'),
-    testsDir = `./src/tests/`,
+    testsDir = __dirname + `/../src/tests/`,
     results = {p: 0, f: 0};
 
 Colors.setTheme({

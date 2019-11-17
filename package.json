@@ -1,15 +1,17 @@
 {
-  "name": "geometry-js",
-  "version": "0.0.11",
+  "name": "@kield01/geometry-js",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node ./npm/tests.js",
-    "g" : "node ./npm/generator.js",
-    "readme" : "node ./npm/readme.js"
+    "g": "node ./npm/generator.js",
+    "readme": "node ./npm/readme.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "geometry"
+  ],
+  "author": "Roman Kozin <romanko95.rk@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
