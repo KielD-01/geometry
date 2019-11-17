@@ -1,11 +1,12 @@
 {
   "name": "geometry-js",
-  "version": "0.1",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node tests.js",
-    "g" : "node generator.js"
+    "g" : "node generator.js",
+    "readme" : "node readme.js"
   },
   "keywords": [],
   "author": "",
