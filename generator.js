@@ -40,21 +40,24 @@ const f = {
 
             return f.join("\r\n".repeat(2))
         },
-        makeFunctionsExports(figure, functions) {
+        makeFunctionsExports(figure, functions = []) {
             return FileSystem.readFileSync(scaffold.getScaffoldPath('exports'), 'utf8')
                 .replace('{figure}', figure)
                 .replace('{functions}', functions.join(",\r\n\t"));
         },
         makeFigure(figure, functions = []) {
-            let exports = f.scaffold.makeFunctionsExports(figure, functions);
-            functions = f.scaffold.makeFigureFunction(figure, functions);
+            let exports = f.scaffold.makeFunctionsExports(figure, functions || []);
+
+            if (functions !== null) {
+                functions = f.scaffold.makeFigureFunction(figure, functions);
+            }
 
             FileSystem.readFile(scaffold.getScaffoldPath('figure'), 'utf8', (err, content) => {
                 if (!err) {
                     content = content
                         .replaceAll('{replace}', figure)
                         .replace('{exports}', exports)
-                        .replace('{functions}', functions);
+                        .replace('{functions}', functions || '');
 
                     FileSystem.writeFile(`./src/figures/${figure}.js`, content, 'utf8', (err) => {
                         if (!err) {
@@ -71,6 +74,8 @@ const f = {
 if (!figure) {
     throw new Error('No Figure has been specified to be generated');
 }
+
+figure = figure.toLowerCase();
 
 if (typeof functions === 'string') functions = functions.split(',');
 
