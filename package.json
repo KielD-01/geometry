@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node tests.js",
-    "g" : "node generator.js",
-    "readme" : "node readme.js"
+    "test": "node ./npm/tests.js",
+    "g" : "node ./npm/generator.js",
+    "readme" : "node ./npm/readme.js"
   },
   "keywords": [],
   "author": "",
