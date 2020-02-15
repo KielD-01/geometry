@@ -1,12 +1,13 @@
 {
   "name": "@kield01/geometry-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "node ./npm/tests.js",
     "g": "node ./npm/generator.js",
-    "readme": "node ./npm/readme.js"
+    "readme": "node ./npm/readme.js",
+    "build": "webpack --config=./webpack.config.js"
   },
   "keywords": [
     "geometry"
@@ -17,5 +18,8 @@
     "colors": "^1.4.0",
     "lodash": "^4.17.15",
     "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
   }
 }
