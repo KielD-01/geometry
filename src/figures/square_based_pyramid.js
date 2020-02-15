@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.square_based_pyramid = {
+module.exports = {
     dummyFunction,
     
 };

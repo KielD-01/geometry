@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.cylinder = {
+module.exports = {
     dummyFunction,
     
 };

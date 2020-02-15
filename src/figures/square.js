@@ -33,7 +33,7 @@ getSquare = function (a) {
     }
 };
 
-module.exports.square = {
+module.exports = {
     getSquare,
     getSquarePerimeter,
     getSquareArea

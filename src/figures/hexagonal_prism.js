@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.hexagonal_prism = {
+module.exports = {
     dummyFunction,
     
 };

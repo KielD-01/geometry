@@ -24,7 +24,7 @@ const getRadius = function () {
     // ToDo : Describe the function body
 };
 
-module.exports.circle = {
+module.exports = {
     dummyFunction,
     getCircle,
 	getRadius

@@ -8,9 +8,7 @@ const dummyFunction = function (text) {
     return `Hello ${text}!`;
 };
 
-
-
-module.exports.triangular_based_pyramid = {
+module.exports = {
     dummyFunction,
     
 };

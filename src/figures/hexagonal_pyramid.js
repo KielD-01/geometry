@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.hexagonal_pyramid = {
+module.exports = {
     dummyFunction,
     
 };

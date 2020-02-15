@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.octahedron = {
+module.exports = {
     dummyFunction,
     
 };

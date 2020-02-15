@@ -32,7 +32,7 @@ const getRectangleArea = function () {
     // ToDo : Describe the function body
 };
 
-module.exports.rectangle = {
+module.exports = {
     dummyFunction,
     getRectangle,
 	getRectanglePerimeter,

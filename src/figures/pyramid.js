@@ -16,7 +16,7 @@ const getPyramid = function () {
     // ToDo : Describe the function body
 };
 
-module.exports.pyramid = {
+module.exports = {
     dummyFunction,
     getPyramid
 };

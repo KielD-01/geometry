@@ -8,6 +8,6 @@ const dummyFunction = function (text) {
     return `Hello ${text}!`;
 };
 
-module.exports.triangle = {
+module.exports = {
     dummyFunction,
 };

@@ -10,7 +10,7 @@ const dummyFunction = function (text) {
 
 
 
-module.exports.trapezium = {
+module.exports = {
     dummyFunction,
     
 };

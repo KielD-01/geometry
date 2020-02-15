@@ -16,6 +16,6 @@ getLineCoordinates = function (axis = 'x', startCoordinatePoint = 0, length = 0)
 
 module.exports.getLineCoordinates = getLineCoordinates;
 
-module.exports.lines = {
+module.exports = {
     getLineCoordinates,
 };
