@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, triangular_prism.triangular_prism);
+    return helpers.runTests(tests, triangular_prism);
 };

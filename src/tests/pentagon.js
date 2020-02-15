@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, pentagon.pentagon);
+    return helpers.runTests(tests, pentagon);
 };

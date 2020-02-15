@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, hexagonal_prism.hexagonal_prism);
+    return helpers.runTests(tests, hexagonal_prism);
 };

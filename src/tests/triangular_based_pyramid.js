@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, triangular_based_pyramid.triangular_based_pyramid);
+    return helpers.runTests(tests, triangular_based_pyramid);
 };

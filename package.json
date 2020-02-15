@@ -1,13 +1,14 @@
 {
   "name": "@kield01/geometry-js",
-  "version": "0.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Geometry package to make a calculations",
   "main": "./dist/index.js",
   "scripts": {
     "test": "node ./npm/tests.js",
     "g": "node ./npm/generator.js",
     "readme": "node ./npm/readme.js",
-    "build": "webpack --config=./webpack.config.js"
+    "build": "rm -rf dist && webpack --config=./webpack.config.js",
+    "b-p": "npm run build & npm publish"
   },
   "keywords": [
     "geometry"

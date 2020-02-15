@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, dodecahedron.dodecahedron);
+    return helpers.runTests(tests, dodecahedron);
 };

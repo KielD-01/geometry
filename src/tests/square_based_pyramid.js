@@ -10,5 +10,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, square_based_pyramid.square_based_pyramid);
+    return helpers.runTests(tests, square_based_pyramid);
 };

@@ -22,5 +22,5 @@ const tests = {
 };
 
 module.exports.t = function () {
-    return helpers.runTests(tests, square.square);
+    return helpers.runTests(tests, square);
 };
