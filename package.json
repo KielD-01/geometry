@@ -1,6 +1,6 @@
 {
   "name": "@kield01/geometry-js",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Geometry package to make a calculations",
   "main": "./dist/index.js",
   "scripts": {
